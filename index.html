@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JS Practice #16</title>
+	<meta charset="utf-8">
+	<meta content="author" name="Adison">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<script src="script.js"></script>
+</head>
+<body>
+	<header>
+		<h2>Calculator v3.0</h2>
+	</header>
+
+	<div id="calculator">
+	<div id="scrn"></div>
+		<div class="key-wrapper">
+			<div class="rows">
+				<button class="keys material-icons" id="8" data-action="erase">&#xe14a;</button>
+				<button class="keys"       id="sqrt" data-action="squareroot">√</button>
+				<button class="keys clear" id="46" data-action="clear">AC</button>
+				<button class="keys"       id="111" data-action="divide">&#247;</button>
+			</div>
+
+			<div class="rows">
+				<button class="keys" id="103">7</button>
+				<button class="keys" id="104">8</button>
+				<button class="keys" id="105">9</button>
+				<button class="keys" id="106" data-action="multiply">&#215;</button>
+			</div>
+			
+			<div class="rows">
+				<button class="keys" id="100">4</button>
+				<button class="keys" id="101">5</button>
+				<button class="keys" id="102">6</button>
+				<button class="keys" id="109" data-action="subtract">-</button>
+			</div>
+		
+			<div class="rows">
+				<button class="keys" id="97">1</button>
+				<button class="keys" id="98">2</button>
+				<button class="keys" id="99">3</button>
+			</div>
+
+			<div class="rows">
+				<button class="keys" id="96">0</button>
+				<button class="keys" id="110" data-action="decimal">&#46;</button>
+				<button class="keys" id="13" data-action="equals">=</button>
+				<button class="keys addition" id="107" data-action="add">+</button>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
