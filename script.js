@@ -1,7 +1,7 @@
 var output = 0;
 var holder;
 var amount = 0;
-var operationType = "";
+var operationType = '';
 var operComplete;
 var clickCount;
 var scrLength;
