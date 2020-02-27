@@ -1,3 +1,3 @@
 # Calculator
 
-Able to perform varios mathematical operations. Chained operations are possible.
+Able to perform various mathematical operations. Chained operations are possible.
