@@ -1,10 +1,10 @@
-var output = 0;
-var holder;
-var amount = 0;
-var operationType = '';
-var operComplete;
-var clickCount;
-var scrLength;
+let output = 0;
+let holder;
+let amount = 0;
+let operationType = '';
+let operComplete;
+let clickCount;
+let scrLength;
 
 function adjustScrSize() {
 	/*NOTE: This fn needs to be improved to 
